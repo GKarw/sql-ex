@@ -2,7 +2,7 @@
 --Result set: model, speed, hd.
 
 SELECT	[model],
-		[speed],
-		[hd]
+	[speed],
+	[hd]
 FROM PC
 WHERE [price] < 500
