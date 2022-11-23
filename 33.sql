@@ -2,5 +2,4 @@
 
 SELECT ship
 FROM Outcomes
-JOIN Battles on Battles.name = Outcomes.battle
-WHERE result = 'sunk' AND Battles.name = 'North Atlantic' 
+WHERE result = 'sunk' AND battle = 'North Atlantic' 
